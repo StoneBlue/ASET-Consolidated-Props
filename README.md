@@ -33,7 +33,7 @@ Supported:
 	Astrogator
 	Kerbalism 
 	TAC Life Support 
-	*or*
+	- *or*
 	USI Life Support
 	  (NOTE: Having *both* TAC & USI installed at the same time may cause conflicts)
 	
