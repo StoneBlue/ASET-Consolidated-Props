@@ -1,4 +1,23 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+2023-02-07
+
+v1.9.0
+
+Initial adoption Release by Stone Blue
+
+- Changes
+  - Created new forum release thread: [ASET Consolidated- Avionics, Props, & IVA Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/211905-1125-181-aset-consolidated-avionics-props-iva-packs/)
+  - Created Github repo
+  - Addition of .version file
+  - Updated/formatted CHANGELOG & README
+  - Relevant documentation added to repo
+  - Added Extras folder, initially contains map of Earth, by slaintemaith, to replace Kerbin map on some props, for use in RO/RP-1
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+*****  Below is original changelog from alexustas' last v1.5 release ****
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 26/11/2017
 
 v1.5
