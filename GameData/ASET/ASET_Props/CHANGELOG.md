@@ -3,8 +3,9 @@
 v1.5
 
 Two new, fully modular and adjustable prop types were added: "Modular Toggle Switch" and "Modular Push Button".
-With them, it is possible to create many different switches, both in form and in function. They were based on real switches from Korry and Zodiac Electric,
-tumblers and buttons used by NASA in Apollo and Space Shuttle programs, as well as switches used by Boeing.
+With them, it is possible to create many different switches, both in form and in function.
+They were based on real switches from Korry and Zodiac Electric,tumblers and buttons used by NASA in
+Apollo and Space Shuttle programs, as well as switches used by Boeing.
 
 CAUTION! In the next major version of ASET PROPS old tumblers and buttons will be removed. All IVA makers are advised to switch to new, modular buttons.
 
@@ -78,8 +79,8 @@ What’s new:
 
 v1.3
 
-    All props working algorithms was reworked to match the last RPM 0.21.
-    Now all instruments stops working if the g-force is higher than 8 g (with dramatical flickering animation)
+All props working algorithms was reworked to match the last RPM 0.21.
+Now all instruments stops working if the g-force is higher than 8 g (with dramatical flickering animation)
 
 New props:
 
@@ -99,6 +100,6 @@ New props:
 
 MFD
 
-    New Landing page, look at the User Manual for the additional information
+    New Landing page, look at the [User Manual](https://www.dropbox.com/s/1e2lsx92z5uxt1z/LandingScreenManual.pdf?dl=0) for additional info
     New Graphs page
     PFD was optimised for RPM 0.21
