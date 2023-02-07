@@ -1,0 +1,164 @@
+PROP
+{
+  name = tggl_CM_(ON)-OFF-(ON)_Template_T1-D
+ 
+// MODEL ASSEMBLY ----------------------------------------------------------------------
+
+// Base
+
+  	MODEL
+	{
+		model = ASET/ASET_Props/Control/Switch_Toggle_Modular/models/TgglBase
+		texture = Switch_TUMBLEDiffuse,ASET/ASET_Props/Control/Switch_Tumble/Switch_TUMBLEDiffuse
+	}
+	
+// Lever
+	
+	MODEL
+	{
+		model = ASET/ASET_Props/Control/Switch_Toggle_Modular/models/TgglLever_Type_1
+		texture = Switch_TUMBLEDiffuse,ASET/ASET_Props/Control/Switch_Tumble/Switch_TUMBLEDiffuse
+	}
+	
+// Guard
+	
+//	MODEL
+//	{
+//		model = ASET/ASET_Props/Control/Switch_Toggle_Modular/models/TgglGuard_Type_1
+//		texture = Switch_TUMBLEDiffuse,ASET/ASET_Props/Control/Switch_Tumble/Switch_TUMBLEDiffuse
+//	}	
+	
+// Backlight
+	
+//	MODEL
+//	{
+//		model = ASET/ASET_Props/Control/Switch_Toggle_Modular/models/TgglBase_Bcklt_2
+//		texture = Switch_TUMBLEDiffuse,ASET/ASET_Props/Control/Switch_Tumble/Switch_TUMBLEDiffuse
+//	}	
+	
+// Collider
+	
+	MODEL
+	{
+		model = ASET/ASET_Props/Control/Switch_Toggle_Modular/models/TgglCollider_DBL
+	} 
+	
+	
+// Action -------------------------------------------------------------------------------------------------	
+
+// UP 
+
+	MODULE
+	{
+		name = JSIActionGroupSwitch
+		switchTransform = SwitchColliderUP
+		perPodPersistenceName = TestSwitchStatus
+		switchGroupIdentifier = 1
+		actionName = dummy
+		switchSound = 
+	}
+	
+// DOWN 
+
+	MODULE
+	{
+		name = JSIActionGroupSwitch
+		switchTransform = SwitchColliderDOWN
+		perPodPersistenceName = TestSwitchStatus
+		switchGroupIdentifier = 0
+		actionName = dummy
+		switchSound = 
+	}	
+
+// Switcher animation ------------------------------------------------------------------------------------
+	
+// UP 
+
+	MODULE
+	{
+		name = JSIActionGroupSwitch
+		switchTransform = SwitchColliderUP
+		animationName = tggl_Lever_UP_Anim
+		actionName = dummy
+		switchSound = ASET/ASET_Props/Sounds/Tumbler3
+		momentarySwitch = true
+	}	
+	
+// DOWN 
+
+	MODULE
+	{
+		name = JSIActionGroupSwitch
+		switchTransform = SwitchColliderDOWN
+		animationName = tggl_Lever_DOWN_Anim
+		actionName = dummy
+		switchSound = ASET/ASET_Props/Sounds/Tumbler3
+		momentarySwitch = true
+	}	
+
+	
+// Labels ----------------------------------------------------------------------------------------------
+
+// NAME
+
+	MODULE
+	{
+		name = JSILabel		
+		transformName = TextTopObj
+		alignment = Center
+		anchor = LowerCenter
+		transformOffset = 0.026,-0.007
+		fontName = Arial
+		fontSize = 6.5
+		variableName = CUSTOM_ALCOR_BACKLIGHT_ON
+		emissive = active 
+		positiveColor = COLOR_ASET_SWITCHER_NAME_POSITIVECOLOR
+		zeroColor = COLOR_ASET_SWITCHER_NAME_ZEROCOLOR
+		negativeColor = COLOR_ASET_SWITCHER_NAME_NEGATIVECOLOR
+		labelText = [b]TEST SWITCH[/b]
+	}
+	
+// ON / OFF
+
+	MODULE
+	{
+		name = JSILabel		
+		transformName = TextTopObj
+		alignment = Center
+		anchor = UpperCenter
+		transformOffset = 0.026,-0.010
+		fontName = Arial
+		fontSize = 4.6
+		variableName = CUSTOM_ALCOR_BACKLIGHT_ON
+		emissive = active 
+		positiveColor = COLOR_ASET_SWITCHER_STATE_POSITIVECOLOR
+		zeroColor = COLOR_ASET_SWITCHER_STATE_ZEROCOLOR
+		negativeColor = COLOR_ASET_SWITCHER_STATE_NEGATIVECOLOR
+		labelText = [b]ON ▼$$$ $$$ $$$ $$$ $$$ $$$ $$$ $$$OFF ▲[/b]
+	}
+	
+// Switcher Backlight -------------------------------------------------------------
+	
+	MODULE
+	{
+		name = JSICallbackAnimator
+		variableName = CUSTOM_ALCOR_BACKLIGHT_ON
+
+ 	//	VARIABLESET
+	//	{
+	//		coloredObject = GlowBorder
+	//		passiveColor = 0,0,0,255
+	//		activeColor = COLOR_ASET_SWITCHER_BORDER_POSITIVECOLOR
+	//		scale = 0.5,1.1
+	//	}
+		
+		VARIABLESET
+		{
+			coloredObject = TumblerMarkObj
+			passiveColor = 0,0,0,255
+			activeColor = COLOR_ASET_SWITCHER_MARK_POSITIVECOLOR
+			scale = 0.5,1.1
+		}
+	}		
+ 
+}

@@ -1,0 +1,32 @@
+[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |[font2][#98cdf9FF]  LANDING MODE  [font0][#CEE3F6FF]| CREW / FL.LOG |    POD  CAMS  |   EXTRA CAMS   |   STANDBY         
+
+[#FF0000FF][font2]{0:"GEAR!";"";""}$&$ GEARALARM 
+[#FF0000FF][font2]{0:"TUMBLE!";"";""}$&$ TUMBLEALARM 
+[#FF0000FF][font2]{0:"HIGH SLOPE";"";""}$&$ SLOPEALARM
+
+
+
+
+
+
+
+                          [#81BEF7FF][font2]{0:"";" CONTACT [#81BEF7FF]";""}            $&$ ORBITMAKESSENSE
+
+{0:"";"                                                            ";"                                                                   "}                           [#ff0000ff][@x-{1:0.0}][@y-{1:0.0}]£    [@x{1:0.0}][@y-{1:0.0}]¤ $&$ ORBITMAKESSENSE ALTITUDEBOTTOM
+                            [#ffff0077]¢  ¡	                       
+                            [#ffff0077]¤  £ 
+{0:"";"                                                            ";"                                                                   "}                           [#ff0000ff][@x-{1:0.0}][@y{1:0.0}]¡    [@x{1:0.0}][@y{1:0.0}]¢ $&$ ORBITMAKESSENSE ALTITUDEBOTTOM
+
+
+
+
+
+{2:"";"                                                            ";""} [#{1:00FF00FF;FF0000FF;FFFF00FF}]{1:"[font2]ASCENT[font0]                                                    ";"[font2] DESCENT  [font0]";""} [#FFFFFFFF]Est.TI:[#FF8000FF]{0:METm:s.f}[#FFFFFFFF]sec $&$TIMETOIMPACTSECS VERTSPEEDROUNDED  ORBITMAKESSENSE
+ 
+[sub] RADAR ALT:                              MIN. IMPACT SPEED:              
+[#00000025]¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨                    ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨[@x-960][#FFFF00FF][dw]{0:SIP_6.3}m             [#FF8000FF]{1:SIP_6.3}m/s   $&$ALTITUDEBOTTOM BESTSPEEDATIMPACT
+[sub] Vertical   VEL:                         CURR.IMPACT SPEED: 
+[#00000025]¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨                    ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨[@x-960][#FFFF00FF][dw]{0:SIP_6.3}m/s           [#FF8000FF]{1:SIP_6.3}m/s   $&$VERTSPEED SPEEDATIMPACT
+[sub] Horizontal VEL:                         SLOPE ANGLE:
+[#00000025]¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨                    ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨[@x-960][#FFFF00FF][dw]{0:SIP_6.3}m/s            [#FF8000FF]{1:0.0}°               $&$ HORZVELOCITY SLOPEANGLE 
+[hw][#CEE3F6FF][font0] ORBIT+ORBITDISPLAY| ORBIT+MAP/MAP |    DOCKING     |  VESSEL VIEW  | [#FFFF00FF]RESET CAM.POS [#CEE3F6FF]|       | [#FFFF00FF]PAN / TILT / SWITCH [#CEE3F6FF]| [#FFFF00FF]ZOOM    

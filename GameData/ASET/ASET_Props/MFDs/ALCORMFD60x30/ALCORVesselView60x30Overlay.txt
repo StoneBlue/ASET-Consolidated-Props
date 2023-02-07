@@ -1,0 +1,32 @@
+[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |  LANDING MODE  | CREW / FL.LOG |    POD  CAMS  |   EXTRA CAMS   |   STANDBY          	
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[hw][#CEE3F6FF][font0] ORBIT+ORBITDISPLAY| ORBIT+MAP/MAP |    DOCKING     |[font2][#98cdf9FF]  VESSEL VIEW  [font0][#CEE3F6FF]|                 | [#FFFF00FF]UP/DOWN [#CEE3F6FF]-NAVIGATE/ [#FFFF00FF]+[#CEE3F6FF]ENTER/[#FFFF00FF]-[#CEE3F6FF]BACK  |

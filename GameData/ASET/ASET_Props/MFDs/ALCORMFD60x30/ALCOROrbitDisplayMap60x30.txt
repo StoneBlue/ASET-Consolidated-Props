@@ -1,0 +1,40 @@
+[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |  LANDING MODE  | CREW / FL.LOG |    POD  CAMS  |   EXTRA CAMS   |   STANDBY          	
+[#00FFFF88]BODY: [#FFFF0088]{0}                      [#00FFFF88]{1:"TARGET: ";"                                                      ";"TARGET: "}[#FFFF0088]{2}			$&$ ORBITBODY TARGETEXISTS TARGETNAME
+[#FFFFFF88]VEL:[#FFFF0088]{0:SIP_6.1}m/s  		                  		         [#FFFFFF88]{1:"VEL:";"                                                      ";"VEL:"}[#FFFF0088]{2:SIP_6.1}m/s		$&$ORBTSPEED TARGETEXISTS TARGETORBITALVEL
+[#FFFFFF88]ALT:[#FFFF0088]{0:SIP_6.3}m    		                    		       [#FFFFFF88]{1:"ALT:";"                                                      ";"ALT:"}[#FFFF0088]{2:SIP_6.1}m  		$&$ ALTITUDE TARGETEXISTS TARGETALTITUDE
+{1:"";"                                                            ";""}[#{4:"FF00FFFF";"00000000";"00000000"}]«««««««««««¬[@x-192][#FFFFFF88]ApA:[#FFFF0077]{0:SIP_6.1}m      		                    		     [#FFFFFF88]{3:"ApA:";"                                                      ";"ApA:"}[#FFFF0088]{2:SIP_6.1}m     $&$APOAPSIS  ORBITMAKESSENSE TARGETAPOAPSIS TARGETEXISTS NEXTAPSISTYPE
+{1:"";"                                                            ";""}[#{4:"00000000";"FF00FFFF";"00000000"}]«««««««««««¬[@x-192][#FFFFFF88]PeA:[#FFFF0077]{0:SIP_6.1}m      		                    		     [#FFFFFF88]{3:"PeA:";"                                                      ";"PeA:"}[#FFFF0088]{2:SIP_6.1}m     $&$PERIAPSIS  ORBITMAKESSENSE TARGETPERIAPSIS TARGETEXISTS NEXTAPSISTYPE
+{1:"";"                                                            ";""}[#FFFFFF88]INC:[#FFFF0077]{0,7:0.000}°      		                    		    [#FFFFFF88]{3:"INC:";"                                                      ";"INC:"}[#FFFF0088]{2,7:0.000}°      $&$INCLINATION ORBITMAKESSENSE TARGETINCLINATION TARGETEXISTS
+{1:"";"                                                            ";""}[#FFFFFF88]ECC:[#FFFF0077]{0,7:0.000}      		                           [#FFFFFF88]{3:"ECC:";"                                                      ";"ECC:"}[#FFFF0088]{2,7:0.000}      $&$ECCENTRICITY ORBITMAKESSENSE TARGETECCENTRICITY TARGETEXISTS APPROACHSPEED
+{1:;"                                                              ";}     		            [#{0:11FF11FF;FF1111FF;00FF00FF}]{0:"APPROACH:";"  DEPART:";} {0:SIP_7.1}m/s    $&$ APPROACHSPEED TARGETEXISTS 
+{1:;"                                                              ";}     		                [#FFFFFF88]DIST:   [#FFFF0088]{0:SIP_6.1}m [#FFFFFFFF] $&$ TARGETDISTANCE  TARGETEXISTS        
+{1:;"                                                              ";}     		               [#FFFFFF88]R.VEL:   [#FFFF0088]{0:SIP_6.3;;"NaN"}m/s    $&$ TRGTSPEED TARGETEXISTS
+{1:;"                                                              ";}     		               [#FFFFFF88]R.INC:   [#FFFF0088]{0:0.0000}° $&$ RELATIVEINCLINATION TARGETEXISTS 
+{1:;"                                                              ";}     		                [#FFFFFF88]T.AN:  [#FFFF0088]{0:MET-D:hh:mm:ss} $&$ TIMETOANWITHTARGETSECS TARGETEXISTS 
+{1:;"                                                              ";}     		                [#FFFFFF88]T.DN:  [#FFFF0088]{0:MET-D:hh:mm:ss} $&$ TIMETODNWITHTARGETSECS TARGETEXISTS  
+{1:;"                                                              ";}     		            [#FFFFFF88]ClstAprT:  [#FFFF0088]{0:MET-D:hh:mm:ss} $&$TARGETCLOSESTAPPROACHTIME TARGETEXISTS
+{1:;"                                                              ";}     		            [#FFFFFF88] ClstApr:   [#FF00FF88]{0:SIP_8.3}m  $&$ TARGETCLOSESTAPPROACHDISTANCE TARGETEXISTS
+
+{1:;"                                                              ";}     		           [#FFFFFF88]Phase Ang:   [#FFFF0088]{2:0.000}° $&$ TARGETCLOSESTAPPROACHDISTANCE TARGETEXISTS TARGETBODYPHASEANGLE
+{1:;"                                                              ";}                         [#FFFFFF88]At:  [#FFFF00FF]{0:MET-y:ddd:hh:mm:ss} $&$ TARGETBODYPHASEANGLESECS TARGETEXISTS
+
+{1:;"                                                              ";""}{0:"";"                                                              ";""}                EJECT ANGLE:   [#FFFF00FF]{0:0.00}° 				$&$ TARGETBODYEJECTIONANGLE TARGETEXISTS ORBITMAKESSENSE 
+{1:;"                                                              ";""}{0:"";"                                                              ";""}                         AT:  [#FFFF00FF]{0:MET-y:ddd:hh:mm:ss} 	$&$ TARGETBODYEJECTIONANGLESECS TARGETEXISTS ORBITMAKESSENSE 
+{1:;"                                                              ";""}                         ΔV:   [#FFFF00FF]{0:SIP_6.2}m/s [hw]({3:SIP_6.2}m/s) $&$ TARGETBODYDELTAV TARGETEXISTS ORBITMAKESSENSE DELTAV 
+
+[#FFFFFFFF]                  {0:"TRANSFER ";"ESCAPE ";"                                                              "} [#FFFF00FF]{1} [#FFFFFFFF]AT [#FFFF00FF]{2:METy:ddd:hh:mm:ss} $&$ ENCOUNTEREXISTS ENCOUNTERBODY ENCOUNTERTIME 
+
+{3:"";"                                                            ";""}[#88888888]     ª««««««««««««««««««««««««««««««««««««««««««««««««¬[@x-792][#FFFFFF88]NodeT:[#{0:"FF000088";"00FF0088";"FFFF0088"}]{0:MET+ddd:hh:mm:ss}[#FFFFFF88]  ΔV:[#FFFF0088]{1,8:0.00}[#FFFFFF88] BurnT:[#81BEF788]{4:METhh:mm:ss.f} $&$ MNODETIMESECS  MNODEDV THROTTLE MNODEEXISTS MNODEBURNTIMESECS 
+ 
+{1:"";"                                                            ";""}[#FFFFFFFF]ApT:[#{4:"FF00FFFF";"00000000";"00000000"}]ª««««««««««««¬[@x-240] [#FFFF0077]{0:MET-ddd:hh:mm:ss}                          [#FFFFFF88]{3:"ApT:";"                                                    ";"ApT:"}[#FFFF0088]{2:MET-ddd:hh:mm:ss}         $&$TIMETOAPSECS  ORBITMAKESSENSE TARGETTIMETOAPSECS TARGETEXISTS NEXTAPSISTYPE
+{1:"";"                                                            ";""}[#FFFFFFFF]PeT:[#{4:"00000000";"FF00FFFF";"00000000"}]ª««««««««««««¬[@x-240] [#FFFF0077]{0:MET-ddd:hh:mm:ss}      [#FFFFFFFF]AnT:[#{6:"FF00FFFF";"00000000";"00000000"}]ª««««««««««««¬[@x-482] [#FFFF0077]{5:MET-ddd:hh:mm:ss}   [#FFFFFF88]{3:"PeT:";"                                                      ";"PeT:"}[#FFFF0088]{2:MET-ddd:hh:mm:ss}   $&$TIMETOPESECS  ORBITMAKESSENSE TARGETTIMETOPESECS TARGETEXISTS NEXTAPSISTYPE TIMETOANEQUATORIAL CUSTOM_ALCOR_NEXT_AN
+{1:"";"                                                            ";""}[#FFFFFFFF] OP:[#FFFF0077]{0:MET-ddd:hh:mm:ss}      [#FFFFFFFF]DnT:[#{5:"FF00FFFF";"00000000";"00000000"}]ª««««««««««««¬[@x-240] [#FFFF0077]{4:MET-ddd:hh:mm:ss}   [#FFFFFF88]{3:" OP:";"                                                      ";" OP:"}[#FFFF0088]{2:MET-ddd:hh:mm:ss}   $&$ORBPERIODSECS ORBITMAKESSENSE TARGETORBPERIODSECS TARGETEXISTS TIMETODNEQUATORIAL CUSTOM_ALCOR_NEXT_DN
+[hw][font2][#98cdf9FF] ORBIT+ORBITDISPLAY[font0][#CEE3F6FF]| ORBIT+MAP/MAP |    DOCKING     |  VESSEL VIEW  | 
+
+
+
+
+
+
+
+
