@@ -8,11 +8,11 @@ https://forum.kerbalspaceprogram.com/index.php?/topic/211905-1125-181-aset-conso
   - Find the packs you wish to install listed on CKAN.
     *or*
   - Manual install:
-	Dowload the .zip file for the Pack, using the links below.
-	Either extract the .zip to your KSP install folder, *or* open it and drag/drop the "GameData" folder to your KSP install folder.
-	You may get a message asking if you are sure you want to merge the GameData folder with the existing one, click "Yes".
-	All of the ASET Consolidated packs share & install to the /GameData/ASET/ subfolder,
-	  in turn creating their own sub-folders in *that* folder.
+    - Dowload the .zip file for the Pack, using the links below.
+    - Either extract the .zip to your KSP install folder, *or* open it and drag/drop the "GameData" folder to your KSP install folder.
+    - You may get a message asking if you are sure you want to merge the GameData folder with the existing one, click "Yes".
+    - All of the ASET Consolidated packs share & install to the /GameData/ASET/ subfolder,
+        in turn creating their own sub-folders in *that* folder.
 
 Required:
   - Either:
