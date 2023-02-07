@@ -17,7 +17,7 @@ https://forum.kerbalspaceprogram.com/index.php?/topic/211905-1125-181-aset-conso
 Required:
   - Either:
 	- RasterProp Monitor Adopted (RPM)
-	 *and/or*
+	  - *and/or*
 	- MOARdV's Avionics Pack (MAS)
            (both can be installed at the same time)	
 
