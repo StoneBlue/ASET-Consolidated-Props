@@ -15,11 +15,15 @@ https://forum.kerbalspaceprogram.com/index.php?/topic/211905-1125-181-aset-conso
         in turn creating their own sub-folders in *that* folder.
 
 Required:
-  - Either:
-	- RasterProp Monitor Adopted (RPM)
-	  - *and/or*
-	- MOARdV's Avionics Pack (MAS)
-           (both can be installed at the same time)	
+
+  - ModuleManager
+       *NOTE: *ONLY* support requests having this version of MM are supported. *NO SUPPORT PROVIDED* for
+              installs having any other fork of MM installed
+
+  - Also *at least ONE* of these mods, depending on what each specific IVA mod you are using needs: (both may be used together)
+    - RasterPropMonitor Adopted (RPM)
+    - MOARdV's Avionics System (MAS)
+       *NOTE: MAS itself includes many stock IVA replacements which use these props, included in its /FlightSystems folder
 
 Supported:
 
