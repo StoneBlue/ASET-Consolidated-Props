@@ -4,6 +4,15 @@ ASET Consolidated Props Pack
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 2023-02-07
 
+v1.9.1
+
+- Changes
+
+  -Fix README
+  
+---------------------------------------------------------------------------------------------------------------------------------------------------
+2023-02-07
+
 v1.9.0
 
 Initial adoption Release by Stone Blue
@@ -12,6 +21,7 @@ Vers. 1.9.0 content is an *exact copy* of v1.5, other than noted below. All vers
 Once changes to actual mod content start, versioning will go to v2.0.x
 
 - Changes
+
   - Created new forum release thread: [ASET Consolidated- Avionics, Props, & IVA Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/211905-1125-181-aset-consolidated-avionics-props-iva-packs/)
   - Created Github repo
   - Addition of .version file
