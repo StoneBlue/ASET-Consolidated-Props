@@ -1,0 +1,24 @@
+{
+	"NAME": "ASET Consolidated Avionics Pack",
+	"URL": "https://github.com/StoneBlue/ASET-Consolidated-Props/main/GameData/ASET/ASET_Avionics/ASET_Avionics.version",
+	"DOWNLOAD": "https://github.com/StoneBlue/ASET-Consolidated-Props/releases/download/v2.9.0/ASET.Consolidated.Avionics.Pack.v2.9.0.zip",
+	"VERSION":
+	{
+		"MAJOR": 2,
+		"MINOR": 9,
+		"PATCH": 0,
+
+	},
+	"KSP_VERSION_MIN":
+	{
+		"MAJOR": 1,
+		"MINOR": 8,
+		"PATCH": 1
+	},
+	"KSP_VERSION_MAX":
+	{
+		"MAJOR": 1,
+		"MINOR": 12,
+		"PATCH": 99
+	}
+}

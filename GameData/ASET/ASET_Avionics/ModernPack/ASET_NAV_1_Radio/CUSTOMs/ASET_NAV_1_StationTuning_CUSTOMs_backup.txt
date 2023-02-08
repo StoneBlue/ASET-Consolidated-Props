@@ -1,0 +1,742 @@
+// station frequences ==========================================
+// location_type_(freq,name)
+// KSC ILS DME RWY 27 (110.10,"IWE")
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_RADIO_KSC_ILS27_IWE
+	  operator = AND
+	  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_Radio_1_ACTIVE_FREQ_CONV  
+			range = 110.09,110.11
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = ORBITBODYINDEX   
+			range = 0.1, 1.1
+		}
+	}
+	
+// KSC ILS DME RWY 09 (108.50,"IKW")
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_RADIO_KSC_ILS09_IKW
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_Radio_1_ACTIVE_FREQ_CONV  
+			range = 108.49,108.51
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = ORBITBODYINDEX   
+			range = 0.1, 1.1
+		}
+	}
+	
+// KSC TWR VOR DME (113.30,"KST")
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_RADIO_KSC_VORDME_KST
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_Radio_1_ACTIVE_FREQ_CONV  
+			range = 113.29,113.31
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = ORBITBODYINDEX   
+			range = 0.1, 1.1
+		}
+	}	
+	
+// ISLAND AIRFIELD (IAF) TWR VOR DME (114.20,"IFT")
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_RADIO_IAF_VORDME_IFT
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_Radio_1_ACTIVE_FREQ_CONV  
+			range = 114.19,114.21
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = ORBITBODYINDEX   
+			range = 0.1, 1.1
+		}
+	}
+	
+// ISLAND AIRFIELD (IAF) NDB DME (191.00,"IRW")
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_RADIO_IAF_NDBDME_IRW
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_Radio_1_ACTIVE_FREQ_CONV  
+			range = 190.99,191.01
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = ORBITBODYINDEX   
+			range = 0.1, 1.1
+		}
+	}
+
+// ISLAND AIRFIELD (IAF) NDB DME (197.00,"IRE")
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_RADIO_IAF_NDBDME_IRE
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_Radio_1_ACTIVE_FREQ_CONV  
+			range = 196.99,197.01
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = ORBITBODYINDEX   
+			range = 0.1, 1.1
+		}
+	}	
+
+// EASTERN ISLAND VOR DME (114.20,"ESI")
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_RADIO_ESI_VORDME_ESI
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_Radio_1_ACTIVE_FREQ_CONV  
+			range = 116.39,116.41
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = ORBITBODYINDEX   
+			range = 0.1, 1.1
+		}
+	}	
+	
+// TARGET VESSEL BEACON (154.5, "TGT")	
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_RADIO_TGT_BEACON
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_Radio_1_ACTIVE_FREQ_CONV  
+			range = 154.49,154.51
+		} 
+		SOURCE_VARIABLE
+		{
+			name = TARGETISVESSELORPORT   
+			range = 0.5,1.1
+		}		
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = ORBITBODYINDEX   
+			range = 0.1, 1.1
+		}
+	}
+
+// switch station coordinates ====================================
+
+// select station LATITUDE ----
+	
+	RPM_SELECT_VARIABLE
+	{
+		name = ASET_NAV_1_STATION_LATITUDE
+
+		defaultValue = 0 
+		
+// - - - KSC ILS DME RWY 27 (IWE)
+		
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS27_IWE  
+			range = 0.1, 1.1
+
+			value = -0.05023564553
+		}
+		
+// - - - KSC ILS DME RWY 09 (IKW)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS09_IKW  
+			range = 0.1, 1.1
+
+			value = -0.04874294553
+		}
+	
+// - - - KSC TWR VOR DME (KST)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_VORDME_KST 
+			range = 0.1, 1.1
+
+			value = -0.06301651539
+		}	
+
+// - - - ISLAND BASE TWR VOR DME (IFT)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_VORDME_IFT
+			range = 0.1, 1.1
+
+			value = -1.52327719495
+		}
+
+// - - - ISLAND BASE TWR NDB DME (IRW)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRW
+			range = 0.1, 1.1
+
+			value = -1.51603061608
+		}
+
+// - - - ISLAND BASE TWR NDB DME (IRE)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRE
+			range = 0.1, 1.1
+
+			value = -1.51603061608
+		}			
+
+// - - - EASTERN ISLAND VOR DME (ESI) 
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ESI_VORDME_ESI
+			range = 0.1, 1.1
+
+			value = 5.623826026160
+		}
+		
+// - - - TARGET VESSEL BEACON (TGT) 
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_TGT_BEACON
+			range = 0.1, 1.1
+
+			value = TARGETLATITUDE
+		}			
+	}
+
+// select station LONGITUDE ----
+	
+	RPM_SELECT_VARIABLE
+	{
+		name = ASET_NAV_1_STATION_LONGITUDE
+
+		defaultValue = 0 
+	
+// - - - KSC ILS DME RWY 27 (IWE)
+	
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS27_IWE  
+			range = 0.1, 1.1
+
+			value = -74.51769428769
+		}
+	
+// - - - KSC ILS DME RWY 09 (IKW)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS09_IKW  
+			range = 0.1, 1.1
+
+			value = -74.69925625769
+		}
+	
+// - - - KSC TWR VOR DME (KST)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_VORDME_KST 
+			range = 0.1, 1.1
+
+			value = -74.63320905499
+		}	
+		
+// - - - ISLAND BASE TWR VOR DME (IFT)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_VORDME_IFT
+			range = 0.1, 1.1
+
+			value = -71.91117281620
+		}	
+		
+// - - - ISLAND BASE TWR NDB DME (IRW)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRW
+			range = 0.1, 1.1
+
+			value = -71.98134693725
+		}	
+
+// - - - ISLAND BASE TWR NDB DME (IRE)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRE
+			range = 0.1, 1.1
+
+			value = -71.83821103293
+		}		
+		
+// - - - EASTERN ISLAND VOR DME (ESI) 
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ESI_VORDME_ESI
+			range = 0.1, 1.1
+
+			value = -61.26513893015
+		}
+
+// - - - TARGET VESSEL BEACON (TGT) 
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_TGT_BEACON
+			range = 0.1, 1.1
+
+			value = TARGETLONGITUDE 
+		}		
+	}
+	
+// station altitude (ASL) ========================================================
+
+// select station ALTIITUDE ----
+	
+	RPM_SELECT_VARIABLE
+	{
+		name = ASET_NAV_1_STATION_ALTITUDE
+
+		defaultValue = 0 
+	
+// - - - KSC ILS DME RWY 27 (IWE)
+	
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS27_IWE  
+			range = 0.1, 1.1
+
+			value = 70
+		}
+	
+// - - - KSC ILS DME RWY 09 (IKW)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS09_IKW  
+			range = 0.1, 1.1
+
+			value = 70
+		}
+	
+// - - - KSC TWR VOR DME (KST)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_VORDME_KST 
+			range = 0.1, 1.1
+
+			value = 160
+		}	
+		
+// - - - ISLAND BASE TWR VOR DME (IBT)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_VORDME_IFT
+			range = 0.1, 1.1
+
+			value = 182
+		}
+
+// - - - ISLAND BASE TWR NDB DME (IRE)		
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRE
+			range = 0.1, 1.1
+
+			value = 97.8
+		}	
+
+// - - - ISLAND BASE TWR NDB DME (IRW)		
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRW
+			range = 0.1, 1.1
+
+			value = 83.4
+		}		
+		
+// - - - EASTERN ISLAND VOR DME (ESI)	
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ESI_VORDME_ESI
+			range = 0.1, 1.1
+
+			value = 1442
+		}
+
+// - - - TARGET VESSEL BEACON (TGT) 
+
+		VARIABLE_DEFINITION
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_TGT_BEACON
+			range = 0.1, 1.1
+
+			value = TARGETALTITUDE  
+		}		
+	}
+	
+	
+// ==============================================================	
+
+// NDB Enabled ================================================== 
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_NDB_ENABLE
+	  operator = OR
+		  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS09_IKW
+			range = 0.1, 1.1
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS27_IWE
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRW
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRE
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_TGT_BEACON
+			range = 0.1, 1.1
+		}
+	}
+	
+// VOR Enabled ================================================== 
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_VOR_ENABLE
+	  operator = OR
+		  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_VORDME_KST
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_VORDME_IFT
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ESI_VORDME_ESI
+			range = 0.1, 1.1
+		}
+	}	
+	
+// DME Enabled ================================================== 
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_DME_ENABLE
+	  operator = OR
+	  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS09_IKW
+			range = 0.1, 1.1
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS27_IWE
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_VORDME_KST
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_VORDME_IFT
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_ESI_VORDME_ESI
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRW
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_IAF_NDBDME_IRE
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_TGT_BEACON
+			range = 0.1, 1.1
+		}
+	}
+
+// LOC Enabled ================================================== 
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_LOC_ENABLE
+	  operator = OR
+	  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS09_IKW
+			range = 0.1, 1.1
+		}  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_RADIO_KSC_ILS27_IWE
+			range = 0.1, 1.1
+		}
+	}	
+
+// 	receivers =====================================================
+
+// NDB "ON"
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_NDB_ON
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_NDB_ENABLE
+			range = 0.1, 1.1
+		}  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_1_STATION_DIST_KM
+			range = 0.1, MATH_ASET_NAV_1_STATION_COMM_RANGE
+		}
+	}
+	
+// GS ON	 
+
+RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_GS_ON
+	  operator = AND
+	  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_LOC_ENABLE  
+			range = 0.1,1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_HSI_TO_CRS_ON
+			range = 0.1, 1.1
+		}
+		SOURCE_VARIABLE
+		{
+			name = SELECT_ASET_HSI_CDI_DEV  
+			range = -8,8
+		}	  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_1_STATION_DIST_KM  
+			range = 0.010,10
+		}	  
+		SOURCE_VARIABLE
+		{
+			name = ALTITUDE  
+			range = MAPPED_ASET_NAV_1_STATION_KSCRWY27_GS_LOWER, MAPPED_ASET_NAV_1_STATION_KSCRWY27_GS_UPPER
+		}
+	}	
+	
+// LOC OK ==================================================  
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_LOC_OK
+	  operator = AND
+	  
+		SOURCE_VARIABLE
+		{
+			name = ALTITUDE  
+			range = 60,4000
+		}
+	  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_LOC_ENABLE
+			range = 0.1, 1.1
+		}  
+		
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_HSI_TO_CRS_ON
+			range = 0.1, 1.1
+		}
+		
+		SOURCE_VARIABLE
+		{
+			name = SELECT_ASET_HSI_CDI_DEV  
+			range = -17.5,17.5
+		}
+		
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_1_STATION_DIST_KM  
+			range = 0.01, 30
+		}
+	}	
+	
+// VOR ========================================================
+
+// VOR max range
+
+RPM_MATH_VARIABLE
+{
+   name = ASET_NAV_1_VOR_MAX_RANGE
+   operator = MULTIPLY  
+
+   sourceVariable = MATH_ASET_NAV_1_STATION_COMM_RANGE
+   sourceVariable = 1.2
+}	
+
+// VOR "ON"
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_VOR_ON
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_VOR_ENABLE
+			range = 0.1, 1.1
+		}  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_1_STATION_DIST_KM
+			range = 0.1, MATH_ASET_NAV_1_VOR_MAX_RANGE
+		}
+	}	
+	
+// DME "ON"
+
+	RPM_CUSTOM_VARIABLE
+	{
+	  name = ASET_NAV_1_DME_ON
+	  operator = AND
+		  
+		SOURCE_VARIABLE
+		{
+			name = CUSTOM_ASET_NAV_1_DME_ENABLE
+			range = 0.1, 1.1
+		}  
+		SOURCE_VARIABLE
+		{
+			name = MATH_ASET_NAV_1_STATION_DIST_KM
+			range = 0.1, MATH_ASET_NAV_1_DME_MAX_RANGE
+		}
+	}	
