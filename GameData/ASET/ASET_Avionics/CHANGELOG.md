@@ -1,6 +1,7 @@
 
-ASET Consolidated Avionics Pack
+ASET Consolidated Avionics Pack by Alexustas, adopted by Stone Blue
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
 2023-02-07
 
 v2.9.0
@@ -10,7 +11,7 @@ Since this is an initial adoption release, NO changes are made to the content, O
 Vers. 2.9.0 content is an *exact copy* of v2.1, other than noted below. All vers. 2.9.x changes will only contain repo and distribution changes to get the bugs worked out.
 Once changes to actual mod content start, versioning will go to v3.0.x
 
-- Changes
+- Changes:
 
   - Created new forum release thread: [ASET Consolidated- Avionics, Props, & IVA Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/211905-1125-181-aset-consolidated-avionics-props-iva-packs/)
   - Created Github repo

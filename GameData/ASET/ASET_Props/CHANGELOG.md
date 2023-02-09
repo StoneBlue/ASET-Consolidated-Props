@@ -1,12 +1,12 @@
 
-ASET Consolidated Props Pack
+ASET Consolidated Props Pack by Alexustas, adopted by Stone Blue
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 2023-02-07
 
 v1.9.1
 
-- Changes
+- Changes:
 
   -Fix README
   
