@@ -1,0 +1,24 @@
+{
+	"NAME": "ASET Consolidated Stock Replacement IVAs",
+	"URL": "https://github.com/StoneBlue/ASET-Consolidated-Props/tree/main/GameData/ASET/ASET_StockRpl_IVAs/ASET_StockRpl_IVAs.version",
+	"DOWNLOAD": "https://github.com/StoneBlue/ASET-Consolidated-Props/releases/download/1.9.0/ASET.Consolidated.Stock.Replacement.IVAs.v1.9.0.zip",
+	"VERSION":
+	{
+		"MAJOR": 1,
+		"MINOR": 9,
+		"PATCH": 0,
+
+	},
+	"KSP_VERSION_MIN":
+	{
+		"MAJOR": 1,
+		"MINOR": 8,
+		"PATCH": 1
+	},
+	"KSP_VERSION_MAX":
+	{
+		"MAJOR": 1,
+		"MINOR": 12,
+		"PATCH": 99
+	}
+}
