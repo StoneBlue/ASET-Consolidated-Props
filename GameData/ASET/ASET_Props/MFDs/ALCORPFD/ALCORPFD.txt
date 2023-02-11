@@ -9,7 +9,7 @@
 [#00FF00FF] [@x-2]{0,6:000.0}°                        [@x2]{1,6:000.0}° $&$ ROLL PITCH
 
 
- [@y10]       [font3][#{7:"FFFFFF99";"00000000";"00000000"}]TWR:{7:0.00}[font0]        {1:"";;"                                                           "}[font3][#{1:"00FF0099";"FF00FF99";"00000000"}]{0:">STAB ON<";;}[#{2:"FFFF0099";"FFFF0099";"00000000"}]{2:PROGRADE;RETROGRADE;}[#{3:"FF00FF99";"FF00FF99";"00000000"}]{3:NORMAL + ;NORMAL - ;}[#{4:"00deff99";"00deff99";"00000000"}]{4:RADIAL - ;RADIAL + ;}[#{5:"FF00FF99";"FF00FF99";"00000000"}]{5:TGT + ;TGT - ;}[#{6:"1111FF99";"1111FF99";"00000000"}]{6:MANEUVER +;MANEUVER -;}            $&$ SASMODESTABILITY SAS SASMODEPROGRADE SASMODENORMAL SASMODERADIAL SASMODETARGET SASMODEMANEUVER TWR
+ [@y10]       [font3][#{7:"FFFFFF99";"00000000";"00000000"}]TWR:{7:0.00}[font0]        {1:"";;"                                                           "}[font3][#{1:"00FF0099";"FF00FF99";"00000000"}]{0:">STAB ON<";"";""}[#{2:"FFFF0099";"FFFF0099";"00000000"}]{2:PROGRADE;RETROGRADE;""}[#{3:"FF00FF99";"FF00FF99";"00000000"}]{3:NORMAL + ;NORMAL - ;""}[#{4:"00deff99";"00deff99";"00000000"}]{4:RADIAL + ;RADIAL - ;""}[#{5:"FF00FF99";"FF00FF99";"00000000"}]{5:TGT + ;TGT - ;""}[#{6:"1111FF99";"1111FF99";"00000000"}]{6:MANEUVER +;MANEUVER -;""}            $&$ SASMODESTABILITY SAS SASMODEPROGRADE SASMODENORMAL SASMODERADIAL SASMODETARGET SASMODEMANEUVER TWR
 				 
                                    [hw] SPEED[/hw][@y8]-
                                     [hw]MODE
