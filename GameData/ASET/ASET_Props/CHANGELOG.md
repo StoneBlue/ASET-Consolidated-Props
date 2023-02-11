@@ -2,6 +2,18 @@
 ASET Consolidated Props Pack by Alexustas, adopted by Stone Blue
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+2023-02-11
+
+v2.0.0
+
+- Changes:
+
+  - Duplicated ASET-derived props that are included in RasterPropMonitor Adopted,
+       in preparation for final inclusion in ASET Consolidated Props Pack & removal from RPM itself, per request of JonnyOThan.
+  - Moved forum thread from WIP/Add-Deveopment to Add-Releases
+  - Released on SpaceDock & CKAN
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
 2023-02-07
 
 v1.9.1
