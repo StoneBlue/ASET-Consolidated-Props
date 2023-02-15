@@ -1,7 +1,7 @@
 {
 	"NAME": "ASET Consolidated Props Pack",
-	"URL": "https://github.com/StoneBlue/ASET-Consolidated-Props/main/GameData/ASET/ASET_Props/ASET_Props.version",
-	"DOWNLOAD": "https://github.com/StoneBlue/ASET-Consolidated-Props/releases/download/2.0.0/ASET.Consolidated.Props.Pack.v2.0.0.zip",
+	"URL": "https://raw.githubusercontent.com/StoneBlue/ASET-Consolidated-Props/main/GameData/ASET/ASET_Props/ASET_Props.version",
+	"DOWNLOAD": "https://github.com/StoneBlue/ASET-Consolidated-Props/releases",
 	"VERSION":
 	{
 		"MAJOR": 2,
