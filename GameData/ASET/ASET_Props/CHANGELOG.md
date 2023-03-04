@@ -2,6 +2,48 @@
 ASET Consolidated Props Pack by Alexustas, adopted by Stone Blue
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+2023-03-03
+
+v2.0.2
+
+- Changes:
+
+  by JonnyOThan
+  - Updated some props with :NEEDS Chatterer, to remove log spam
+  - Remove duplicate "escape" entry
+  - Add ASET_WallLabel prop
+  - Fix places that are using KDT instead of MET formatting
+  - Wall Label: hook up persistence, add vr support for second button
+
+  by StoneBlue
+  - Clean up a bunch of log spam
+     - Delete unecessary, duplicate .png textures: Switch_PUSH_Icons, kOSTerminalDiffuse, kOSTerminalEmissive, SwitchPanelDiffuse
+     - Resized HDG.png by a few pixels
+     - Resized bg02.png; discovered it may not even be used anywhere. Renamed it for possible deprecation/removal
+     - Fixed typo in On_CHATTERER_ON.cfg
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+2023-02-19
+
+v2.0.1
+
+- Changes:
+
+  by JonnyOThan
+  - Add VR configuration to flashlight
+  - Add flashlight prop
+  - Add :NEEDS markers on a bunch of MFD pages that require specific mods
+  - Move compatibility patches from RPM
+  - Point download link in .version file to spacedock
+  - Fix URLs in version file
+  - Add some :NEEDS tags to MFDs for plugins
+  
+  by StoneBlue
+  - Added .blends from some of the new MAS props
+  - Added Flashlight prop .blend
+  - Moved Flashlight prop license to created LICENSE.md
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 2023-02-11
 
 v2.0.0
