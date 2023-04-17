@@ -2,6 +2,66 @@
 ASET Consolidated Props Pack by Alexustas, adopted by Stone Blue
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+2023-04-13
+
+v2.0.4
+
+- Changes:
+
+  by JonnyOThan:
+	- Mapped some MechJeb SAS pushbuttons, to work as stock, where SAS functions are comparable, *when MechJeb is NOT installed*
+	- Added moar precision to deltaV Digital Indicator
+	- Fixed missing "Prev/Next" buttons on kOS Terminal, by reverting to old texture
+	- Fixed texture reference in Flashlight prop
+
+  by Stone Blue:
+	- Added MRE Food Pack props
+	- Fixed incorrect name for Food_BeveragePackage_TropicalPunch
+	- Fixed a bunch of typo/syntax errors & cleaned up whitespace while I was in there, in prop cfgs:
+
+		- Fixed missing closing "}" pb_ALCOR_NAV_LIGHT-FD4.cfg
+		- Fixed missing closing "}" pb_MJ_ROLL_0-FT.cfg
+		- Fixed missing closing "}" pb_MJ_ROLL_90-FT.cfg
+		- Fixed missing closing "}" pb_MJ_ROLL_180-FT.cfg
+		- Fixed missing closing "}" pb_MJ_ROLL_270-FT.cfg
+		- Fixed missing closing "}" pb_THRTL_CUT-FT-G1.cfg
+		- Fixed missing closing "}" pb_THRTL_FULL-FT-G1.cfg
+		- Fixed extra closing "}" in tggl_NOSE_TRIM_T4M-D.cfg
+		- Fixed extra closing "}" in tggl_SEAT_POSITION_T4M-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG01_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG02_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG03_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG04_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG05_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG06_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG07_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG08_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG09_T4W-S.cfg
+		- Fixed half-commented out MODULE in tggl_AG10_T4W-S.cfg
+		- Fixed extra closing "}" in tggl_LIGHTS_T4M-S.cfg
+		- Removed extra "/" from EOS in CustomVariables_ALCOR_MFDs.cfg
+		- Removed extra "}" from EOS in kOSTerminalGraphSets.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG01.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG02.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG03.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG04.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG05.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG06.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG07.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG08.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG09.cfg
+		- Added missing "/" in comment in swTumbler_V3_AG10.cfg
+		- Added missing "/" in comment in swTumbler_V3_Brakes.cfg
+		- Added missing "/" in comment in swTumbler_V3_FuelCell.cfg
+		- Added missing "/" in comment in swTumbler_V3_Gear.cfg
+		- Added missing "/" in comment in swTumbler_V3_Lights.cfg
+		- Added missing "/" in comment in swTumbler_V3_RCS.cfg
+		- Added missing "/" in comment in swTumbler_V3_ResLock.cfg
+		- Added missing "/" in comment in swTumbler_V3_SAS.cfg
+		- Added missing "/" in comment in swTumbler_V3_StageLock.cfg
+		- Added missing "/" in comment in swTumbler_V3_ThrustReverser.cfg
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 2023-03-10
 
 v2.0.3 - Hotfix for MAS
