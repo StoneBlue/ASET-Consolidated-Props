@@ -1,4 +1,4 @@
-[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |  LANDING MODE  | CREW / FL.LOG |    POD  CAMS  |   EXTRA CAMS   |   STANDBY          	
+[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |  LANDING MODE  | CREW / FL.LOG |  SCI / COMMS  |   EXTRA CAMS   |   STANDBY          	
 [#00FFFF88]BODY: [#FFFF0088]{0}                      [#00FFFF88]{1:"TARGET: ";"                                                      ";"TARGET: "}[#FFFF0088]{2}			$&$ ORBITBODY TARGETEXISTS TARGETNAME
 [#FFFFFF88]VEL:[#FFFF0088]{0:SIP_6.1}m/s  		                  		         [#FFFFFF88]{1:"VEL:";"                                                      ";"VEL:"}[#FFFF0088]{2:SIP_6.1}m/s		$&$ORBTSPEED TARGETEXISTS TARGETORBITALVEL
 [#FFFFFF88]ALT:[#FFFF0088]{0:SIP_6.3}m    		                    		       [#FFFFFF88]{1:"ALT:";"                                                      ";"ALT:"}[#FFFF0088]{2:SIP_6.1}m  		$&$ ALTITUDE TARGETEXISTS TARGETALTITUDE

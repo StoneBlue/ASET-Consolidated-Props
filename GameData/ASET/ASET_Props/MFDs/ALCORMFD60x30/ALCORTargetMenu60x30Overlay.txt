@@ -1,4 +1,4 @@
-[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |[font2][#98cdf9FF]  TARGET MENU  [font0][#CEE3F6FF]|  LANDING MODE  | CREW / FL.LOG |    POD  CAMS  |   EXTRA CAMS   |   STANDBY          	
+[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |[font2][#98cdf9FF]  TARGET MENU  [font0][#CEE3F6FF]|  LANDING MODE  | CREW / FL.LOG |  SCI / COMMS  |   EXTRA CAMS   |   STANDBY          	
               
 
 

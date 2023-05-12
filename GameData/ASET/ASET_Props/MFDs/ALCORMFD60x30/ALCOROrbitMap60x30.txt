@@ -1,4 +1,4 @@
-[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |  LANDING MODE  | CREW / FL.LOG |    POD  CAMS  |   EXTRA CAMS   |   STANDBY          	
+[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |  LANDING MODE  | CREW / FL.LOG |  SCI / COMMS  |   EXTRA CAMS   |   STANDBY          	
 [#FFFF00FF]{3}:{0,-22}[#FFFFFFFF] |[#00FF00FF]{2:"TARGET:";"";""}{1}{2:;"NO TARGET";} $&$NAME TARGETNAME TARGETEXISTS VESSELTYPE
   [#FFFFFFFF]Current Celestial:[#FFFF00FF]{0,-7} {2:;"                                                                 ";}[#FFFFFFFF]EJ.ANGLE:[#FFFF00FF]{2:0.00}° [#FFFFFFFF]@[#FFFF00FF]{3:SIP_6.1}m                  $&$ORBITBODY SITUATION TARGETBODYMOONEJECTIONANGLE TARGETBODYEJECTIONALTITUDE
   [#FFFFFFFF]ATMOSPHERE:[#FFFF00FF]{0:"YES";"NO ";"   "}{0:"";"                                                                 ";""}[#FFFFFFFF]         O[sub]2[/sub]:[#FFFF00FF]{0:"YES";"NO ";"   "}       [#FFFFFFFF]ATM.TOP:[#FFFF00FF]{2}m  [#FFFFFFFF]                  $&$ORBITBODYATMOSPHERE ORBITBODYOXYGEN  ORBITBODYATMOSPHERETOP 

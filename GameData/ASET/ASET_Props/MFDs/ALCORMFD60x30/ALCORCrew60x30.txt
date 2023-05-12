@@ -1,4 +1,4 @@
-[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |  LANDING MODE  |[font2][#98cdf9FF] CREW [font0][#CEE3F6FF]/ FL.LOG |    POD  CAMS  |   EXTRA CAMS   |   STANDBY      
+[hw][#CEE3F6FF][font0]  RESOURCES ST/TOT |  TARGET MENU  |  LANDING MODE  |[font2][#98cdf9FF] CREW [font0][#CEE3F6FF]/ FL.LOG |  SCI / COMMS  |   EXTRA CAMS   |   STANDBY      
 
 ----- "{0}" CREW LIST: ------------------------------------$&$ NAME
 

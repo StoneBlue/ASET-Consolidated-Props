@@ -1,4 +1,4 @@
-[hw][font2][#98cdf9FF]  RESOURCES[font2][#98f9cdFF] ST[font0][#CEE3F6FF]/TOT |  TARGET MENU  |  LANDING MODE  | CREW / FL.LOG |    POD  CAMS  |   EXTRA CAMS   |   STANDBY        	
+[hw][font2][#98cdf9FF]  RESOURCES[font2][#98f9cdFF] ST[font0][#CEE3F6FF]/TOT |  TARGET MENU  |  LANDING MODE  | CREW / FL.LOG |  SCI / COMMS  |   EXTRA CAMS   |   STANDBY        	
 [#FFFFFFFF]                    RESOURCES INFO                  [#FF00FFFF][font2]STAGE
 [@y-12][#FFFFFFFF]¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
 
