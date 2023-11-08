@@ -2,6 +2,20 @@
 ASET Consolidated Props Pack by Alexustas, adopted by Stone Blue
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+2023-11-08
+
+v2.0.7
+
+- Changes:
+
+  - Improvements to hatch props
+  - Fix "has oxygen" readout on 60x30 MFD map page
+  - Reduce number of gameobjects in SeatV2 for performance
+  - Fix FI_Gear_DEPLOYED prop
+  - Add new scifi yoke prop (thanks @SMAEL)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 2023-04-13
 
 v2.0.4
