@@ -1,4 +1,4 @@
-﻿[hw][font0]  [#CEE3F6FF]ATTITUDE [#FFFFFFFF]|[#CEE3F6FF]TARGET /DPAI[#FFFFFFFF]| [#CEE3F6FF]NAV 1/2 [#FFFFFFFF]|[#CEE3F6FF]MJ / ASTR.[#FFFFFFFF]|[#77FF77FF][font0]GRAPHS 1[#CEE3F6FF][font0]/2[#CEE3F6FF]|VESL.VIEW [#FFFFFFFF]|[#CEE3F6FF]RESC.ST/TOT
+﻿[hw][font0]  [#CEE3F6FF]ATTITUDE [#FFFFFFFF]|[#CEE3F6FF]TARGET /DPAI[#FFFFFFFF]| [#CEE3F6FF]NAV 1/2 [#FFFFFFFF]|[#CEE3F6FF]MJ / ASTR.[#FFFFFFFF]|[#77FF77FF][font0]GRAPHS 1[#CEE3F6FF][font0]/2[#CEE3F6FF]|VSLV / CAMS[#FFFFFFFF]|[#CEE3F6FF]RESC.ST/TOT
 [sub][hw][@y-14]125 [/sub][/hw]                                 [#FFFFFFFF][@y0][hw] ALT(ASL)
                                    [#00FF00FF][@y0][hw] {0:SIP8.2}m $&$ ALTITUDE
                                    [#FFFFFF44][@y0][hw]    [sup]X1000                                       
